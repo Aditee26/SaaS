@@ -366,6 +366,6 @@ Deployment: Vercel
 
 Version Control: Git/GitHub
 
-Contact-aditeesingh001@gmail.com
+Contact: aditeesingh001@gmail.com
 
 Project Link: https://github.com/Aditee26/SaaS
