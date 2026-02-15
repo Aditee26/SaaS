@@ -365,6 +365,6 @@ Deployment: Vercel
 Version Control: Git/GitHub
 
 📧 Contact
-Your Name - your-email@example.com
+Your Name - aditeesingh001@gmail.com
 
-Project Link: https://github.com/yourusername/saas-landing-dashboard
+Project Link: https://github.com/Aditee26/SaaS
