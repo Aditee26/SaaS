@@ -3,7 +3,7 @@
 A modern SaaS web application featuring a pixel-perfect landing page (from Figma), authentication, and an interactive dashboard with API integration.
 
 ## 🚀 Live Demo
-[View Live Demo](your-vercel-url.vercel.app)
+[View Live Demo]([https://squidsaas.netlify.app/)])
 ---
 
 ## 🛠️ Setup Instructions
