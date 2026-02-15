@@ -16,7 +16,7 @@ A modern SaaS web application featuring a pixel-perfect landing page (from Figma
 
 1. **Clone the repository**
 
-git clone https://github.com/Aditee26/saas.git
+git clone https://github.com/Aditee26/SaaS.git
 cd saas-landing-dashboard
 Install dependencies
 
