@@ -230,37 +230,32 @@ Visible focus states
 ## 📸 Screenshots
 
 ### Landing Page - Hero Section
-![Landing Page - Hero Section](./public/images/Hero.png)
-*Beautiful hero section with CTA button matching Figma design*
+<img width="1898" height="803" alt="Hero" src="https://github.com/user-attachments/assets/b0cb13f1-247b-4886-8b97-cddcfbf356cb" />
 
 ### Features Grid
-![Features Grid](./public/images/Feature_Boxes.png)
-*6 feature cards with icons and hover states*
+<img width="1896" height="1015" alt="Feature_Boxes" src="https://github.com/user-attachments/assets/e0bf9b9b-6edc-45e4-a585-48cc629df701" />
 
 ### Pricing Plans
-![Pricing Plans](./public/images/Pricing.png)
-*3 pricing tiers with "Popular" badge on Golden package*
+<img width="1908" height="1012" alt="Pricing" src="https://github.com/user-attachments/assets/cacef059-8fbe-4837-922e-411d3ec278cf" />
+
+### Testimonials
+<img width="1903" height="1016" alt="Testimonials" src="https://github.com/user-attachments/assets/9b2f0a56-6183-49d2-8089-2506aa3c8983" />
 
 ### FAQ Section
-![FAQ Section](./public/images/FAQ.png)
-*Accordion-style frequently asked questions*
+<img width="1893" height="1014" alt="FAQ" src="https://github.com/user-attachments/assets/033f3ebb-2941-46a3-8b74-9afa03b0cd90" />
 
 ### Authentication Pages
-| Login Page | Register Page |
-|------------|---------------|
-| ![Login Page](./public/images/login.png) | ![Registration Page](./public/images/Register.png) |
+<img width="1904" height="1030" alt="Register" src="https://github.com/user-attachments/assets/698a480f-c4b3-49e1-a230-80c885c09024" />
+<img width="1904" height="1010" alt="login" src="https://github.com/user-attachments/assets/0dc7f081-6b84-4bc1-a4e1-a70b8990aefd" />
 
 ### Dashboard Overview
-![Dashboard Overview](./public/images/Dashboard.png)
-*Stats cards and recent activity table*
+<img width="1916" height="1032" alt="Dashboard" src="https://github.com/user-attachments/assets/1f70fa4b-9d52-4c81-9ea0-030c6cb4b4be" />
 
 ### Users Management
-![Users Table](./public/images/users.png)
-*Search, sort, and pagination for users*
+<img width="1901" height="1032" alt="users" src="https://github.com/user-attachments/assets/b38ea326-ff30-462b-9588-97779f1e2207" />
 
 ### Settings Page
-![Settings Page](./public/images/settings.png)
-*Profile form and theme toggle with localStorage persistence*
+<img width="1909" height="1024" alt="settings" src="https://github.com/user-attachments/assets/a8c2edca-1625-4001-a3fa-1f49b6861123" />
 
 
 🤔 Decisions & Tradeoffs
