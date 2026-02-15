@@ -230,36 +230,36 @@ Visible focus states
 ## 📸 Screenshots
 
 ### Landing Page - Hero Section
-![Landing Page - Hero Section](./images/Hero.png)
+![Landing Page - Hero Section](./public/images/Hero.png)
 *Beautiful hero section with CTA button matching Figma design*
 
 ### Features Grid
-![Features Grid](./images/Feature_Boxes.png)
+![Features Grid](./public/images/Feature_Boxes.png)
 *6 feature cards with icons and hover states*
 
 ### Pricing Plans
-![Pricing Plans](./images/Pricing.png)
+![Pricing Plans](./public/images/Pricing.png)
 *3 pricing tiers with "Popular" badge on Golden package*
 
 ### FAQ Section
-![FAQ Section](./images/FAQ.png)
+![FAQ Section](./public/images/FAQ.png)
 *Accordion-style frequently asked questions*
 
 ### Authentication Pages
 | Login Page | Register Page |
 |------------|---------------|
-| ![Login Page](./images/login.png) | ![Registration Page](./images/Register.png) |
+| ![Login Page](./public/images/login.png) | ![Registration Page](./public/images/Register.png) |
 
 ### Dashboard Overview
-![Dashboard Overview](./images/Dashboard.png)
+![Dashboard Overview](./public/images/Dashboard.png)
 *Stats cards and recent activity table*
 
 ### Users Management
-![Users Table](./images/users.png)
+![Users Table](./public/images/users.png)
 *Search, sort, and pagination for users*
 
 ### Settings Page
-![Settings Page](./images/settings.png)
+![Settings Page](./public/images/settings.png)
 *Profile form and theme toggle with localStorage persistence*
 
 
