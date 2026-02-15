@@ -1,36 +1,370 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SaaS Landing Page with Dashboard
 
-## Getting Started
+A modern SaaS web application featuring a pixel-perfect landing page (from Figma), authentication, and an interactive dashboard with API integration.
 
-First, run the development server:
+## 🚀 Live Demo
+[View Live Demo](your-vercel-url.vercel.app)
+---
 
+## 🛠️ Setup Instructions
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation Steps
+
+1. **Clone the repository**
 ```bash
+git clone https://github.com/Aditee26/saas.git
+cd saas-landing-dashboard
+Install dependencies
+
+bash
+npm install
+# or
+yarn install
+Run the development server
+
+bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser
+Navigate to http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for Production
+bash
+npm run build
+npm start
+Test Credentials
+Since this uses fake authentication, you can use any credentials:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Email: any@email.com
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Password: any password (minimum 6 characters)
 
-## Learn More
+✅ Features Checklist
+Part A: Landing Page (Figma Match)
+Header/Navigation
 
-To learn more about Next.js, take a look at the following resources:
+Squid Logo, Home link, Download Template button, Login & Register buttons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Hero Section
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+"Beautiful Landing Page Design for You" with subheading and CTA button
 
-## Deploy on Vercel
+Features Section (6 Cards)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Fully Customizable, Smart Analytics, Secure Platform, Fast Performance, Cloud Integration, 24/7 Support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Each with icon and description matching Figma
+
+Testimonials Section
+
+3 client testimonial cards with names, titles, companies, and quotes
+
+Pricing Section
+
+3 tiers: Silver ($40), Golden ($70 with "Popular" badge), Premium ($120)
+
+Feature lists and "Book Now" buttons
+
+FAQ Section
+
+Accordion-style with 8+ expandable questions
+
+Companies Section
+
+Client logos: Stratfor, Ethan, National, UAE, Africa
+
+CTA Section
+
+"15 Days Free Trial" promotion with "Learn More" button
+
+Contact Section
+
+Email, Name, Company input fields and "Get in Touch" button
+
+Footer
+
+Logo, description, social links, product links, company links, legal links, copyright
+
+Design Accuracy
+
+Exact spacing (px values from Figma)
+
+Typography matches (font sizes, weights)
+
+Button styles match (padding, border-radius)
+
+Card shadows and borders
+
+Hover states on all interactive elements
+
+Focus states for accessibility
+
+Part B: Authentication
+Login Page (/login)
+
+Email input, Password input, Sign In button, Link to Register
+
+Register Page (/register)
+
+Full Name, Email, Password, Confirm Password, Signup button
+
+Social login options (Google, Twitter)
+
+Auth Functionality
+
+Fake auth with localStorage token storage
+
+Protected dashboard routes
+
+Redirect to login if unauthenticated
+
+Logout clears token
+
+Form validation
+
+Part C: Dashboard
+Dashboard Layout
+
+Sidebar with icons (Dashboard, Users, Settings)
+
+Welcome message with username
+
+Theme toggle (Light/Dark)
+
+Logout button
+
+Dashboard Summary (/dashboard)
+
+Stats Cards: Total Users (10), Active Companies (10), Cities (10), Avg. Response (2.4s)
+
+Percentage change indicators
+
+Recent activity table with first 5 users
+
+Users Page (/dashboard/users) - Core Feature
+
+Search: Filter by name or email
+
+Sort: A-Z and Z-A by name
+
+Table View: Name, Email, Company, City
+
+Pagination: 5 items per page with Previous/Next
+
+User Detail Modal: Full user info on click
+
+Data from JSONPlaceholder API
+
+Settings Page (/dashboard/settings)
+
+Profile form (Name, Email, Company)
+
+Theme toggle (persists in localStorage)
+
+Save button with feedback
+
+Settings persist after reload
+
+API Integration
+
+Loading states with skeletons
+
+Error handling with retry option
+
+Empty states for no results
+
+Part D: Quality Requirements
+Component Structure
+
+Reusable Button, Input, Modal, Table, Card components
+
+Layout components (Header, Footer, DashboardLayout)
+
+State Management
+
+Auth context/provider
+
+Theme context/provider
+
+Users state with search/sort/pagination
+
+Loading States
+
+Skeleton loaders for tables
+
+Button loading spinners
+
+Page transition loaders
+
+Error States
+
+Error messages with retry
+
+Empty search results
+
+API failure handling
+
+Mobile Responsive
+
+No horizontal scroll
+
+Stack cards on mobile
+
+Hamburger menu for mobile dashboard
+
+Accessibility
+
+Semantic HTML (header, main, nav, section)
+
+ARIA labels
+
+Keyboard navigation
+
+Visible focus states
+
+📸 Screenshots
+Landing Page - Hero Section
+![Landing Page - Hero Section](./public/images/Hero.png)
+
+Features Grid
+![Features Grid](./public/images/Feature_Boxes.png) 
+
+Pricing Plans
+![Pricing Plans](./public/images/Pricing.png) 
+
+FAQ Section
+![FAQ](./public/images/FAQ.png) 
+
+Login Page
+![Login Page](./public/images/login.png) 
+
+Register Page
+![Registration Page](./public/images/Register.png)
+
+Dashboard Overview
+![Dashboard Overview](./public/images/Dashboard.png)
+
+Users Management
+![Users Table](./public/images/users.png)
+
+Settings Page
+![Setting](./public/images/settings.png)
+
+
+🤔 Decisions & Tradeoffs
+1. Next.js over Create React App
+Decision: Used Next.js for the landing page and dashboard
+
+Why: Better SEO for marketing page, built-in routing without React Router, and easier deployment on Vercel
+
+Tradeoff: Slightly more complex setup but worth it for performance and developer experience
+
+2. Client-side Pagination
+Decision: Implemented pagination on the frontend instead of API calls per page
+
+Why: JSONPlaceholder API doesn't support server-side pagination parameters
+
+Tradeoff: Not scalable for thousands of users, but acceptable for demo with only 10 users. In production, would need server-side pagination.
+
+3. Local Storage for Authentication
+Decision: Used localStorage to store fake auth token
+
+Why: Project requirements specified "fake auth is okay" to focus on frontend
+
+Tradeoff: Not secure for real applications, but perfect for this assessment scope. Real auth would need HTTP-only cookies.
+
+4. Tailwind CSS for Styling
+Decision: Used Tailwind for all styling
+
+Why: Allows exact pixel measurements from Figma, rapid development, and built-in responsive utilities
+
+Tradeoff: HTML can become verbose, but component extraction keeps it clean and reusable
+
+5. No TypeScript
+Decision: Used JavaScript instead of TypeScript
+
+Why: Project requirements stated TypeScript is "bonus, not mandatory" - saved development time
+
+Tradeoff: Less type safety and IDE autocomplete, but code is well-documented and structured
+
+6. Reusable Component Library Approach
+Decision: Built reusable UI primitives (Button, Input, Modal) before dashboard
+
+Why: Ensures consistency and speeds up dashboard development
+
+Tradeoff: Invested extra time upfront (2 hours) but saved time on users table and settings page
+
+7. Figma Pixel-Perfect Priority
+Decision: Spent 60% of time on landing page accuracy
+
+Why: Project explicitly states "If homepage is off, score drops heavily"
+
+Tradeoff: Dashboard has simpler design but meets all functional requirements. High score on landing page compensates.
+
+8. Context API over Redux
+Decision: Used React Context for auth and theme state
+
+Why: Simple state needs didn't warrant Redux complexity
+
+Tradeoff: Could face performance issues with larger apps, but fine for this scale
+
+9. Static Companies Data
+Decision: Derived companies from JSONPlaceholder users
+
+Why: No companies API available, used unique company names from users data
+
+Tradeoff: Companies count equals users count, but matches project requirement of "can be derived"
+
+10. Modal for User Details
+Decision: Used modal instead of separate route page
+
+Why: Better UX for quick views, keeps users in context of the list
+
+Tradeoff: Slightly more complex state management, but reusable Modal component makes it clean
+
+11. CSS Modules + Tailwind Mix
+Decision: Used Tailwind for most styling, CSS Modules only for complex components
+
+Why: Tailwind for speed, CSS Modules when styles needed dynamic class generation
+
+Tradeoff: Two styling approaches, but kept to minimum (only 2 components use CSS Modules)
+
+12. Mobile-First Approach
+Decision: Built mobile responsive from start, not as an afterthought
+
+Why: Project requires "no horizontal overflow on mobile"
+
+Tradeoff: Desktop styling needed overrides, but Tailwind's responsive prefixes made it easy
+
+🔑 Key Learning & Challenges
+Biggest Challenge
+Matching Figma spacing exactly required inspecting every pixel value. Used Figma's inspect tool to get exact margin/padding values instead of eyeballing.
+
+Smartest Decision
+Building the reusable Table component early. Made the users page implementation 3x faster since sorting, pagination, and row clicking were all handled by props.
+
+What I'd Improve
+Given more time, I'd add unit tests for the dashboard components and implement server-side pagination with a mock API.
+
+📝 Tech Stack
+Framework: Next.js
+
+Styling: Tailwind CSS
+
+Icons: React Icons
+
+API: JSONPlaceholder
+
+Deployment: Vercel
+
+Version Control: Git/GitHub
+
+📧 Contact
+Your Name - your-email@example.com
+
+Project Link: https://github.com/yourusername/saas-landing-dashboard
