@@ -227,33 +227,40 @@ Keyboard navigation
 
 Visible focus states
 
-📸 Screenshots
-Landing Page - Hero Section
-![Landing Page - Hero Section](./public/images/Hero.png)
+## 📸 Screenshots
 
-Features Grid
-![Features Grid](./public/images/Feature_Boxes.png) 
+### Landing Page - Hero Section
+![Landing Page - Hero Section](./images/Hero.png)
+*Beautiful hero section with CTA button matching Figma design*
 
-Pricing Plans
-![Pricing Plans](./public/images/Pricing.png) 
+### Features Grid
+![Features Grid](./images/Feature_Boxes.png)
+*6 feature cards with icons and hover states*
 
-FAQ Section
-![FAQ](./public/images/FAQ.png) 
+### Pricing Plans
+![Pricing Plans](./images/Pricing.png)
+*3 pricing tiers with "Popular" badge on Golden package*
 
-Login Page
-![Login Page](./public/images/login.png) 
+### FAQ Section
+![FAQ Section](./images/FAQ.png)
+*Accordion-style frequently asked questions*
 
-Register Page
-![Registration Page](./public/images/Register.png)
+### Authentication Pages
+| Login Page | Register Page |
+|------------|---------------|
+| ![Login Page](./images/login.png) | ![Registration Page](./images/Register.png) |
 
-Dashboard Overview
-![Dashboard Overview](./public/images/Dashboard.png)
+### Dashboard Overview
+![Dashboard Overview](./images/Dashboard.png)
+*Stats cards and recent activity table*
 
-Users Management
-![Users Table](./public/images/users.png)
+### Users Management
+![Users Table](./images/users.png)
+*Search, sort, and pagination for users*
 
-Settings Page
-![Setting](./public/images/settings.png)
+### Settings Page
+![Settings Page](./images/settings.png)
+*Profile form and theme toggle with localStorage persistence*
 
 
 🤔 Decisions & Tradeoffs
