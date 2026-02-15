@@ -15,7 +15,7 @@ A modern SaaS web application featuring a pixel-perfect landing page (from Figma
 ### Installation Steps
 
 1. **Clone the repository**
-```bash
+
 git clone https://github.com/Aditee26/saas.git
 cd saas-landing-dashboard
 Install dependencies
@@ -158,7 +158,7 @@ Pagination: 5 items per page with Previous/Next
 
 User Detail Modal: Full user info on click
 
-Data from JSONPlaceholder API
+Data from JSON Placeholder API
 
 Settings Page (/dashboard/settings)
 
@@ -230,7 +230,7 @@ Visible focus states
 ## 📸 Screenshots
 
 ### Landing Page - Hero Section
-<img width="1898" height="803" alt="Hero" src="https://github.com/user-attachments/assets/b0cb13f1-247b-4886-8b97-cddcfbf356cb" />
+![image alt](https://github.com/Aditee26/SaaS/blob/c332fb1f3fa7db8872bac9096bc564acba099c6a/Hero.png)
 
 ### Features Grid
 <img width="1896" height="1015" alt="Feature_Boxes" src="https://github.com/user-attachments/assets/e0bf9b9b-6edc-45e4-a585-48cc629df701" />
@@ -366,7 +366,6 @@ Deployment: Vercel
 
 Version Control: Git/GitHub
 
-📧 Contact
-Your Name - aditeesingh001@gmail.com
+Contact-aditeesingh001@gmail.com
 
 Project Link: https://github.com/Aditee26/SaaS
